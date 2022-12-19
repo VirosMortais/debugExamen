@@ -24,7 +24,7 @@ public class AnalizadorPalabras
     */
    public char primerCaracterRepetido()
    {
-      for (int i = 0; i < palabra.length(); i++)
+      for (int i = 1; i < palabra.length()-1; i++)
       {
          char ch = palabra.charAt(i);
          if (ch == palabra.charAt(i + 1))
